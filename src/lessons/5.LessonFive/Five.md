@@ -18,6 +18,8 @@ After the equal sign on *line 4*, the useState function is called. The value pas
 
 Before moving forward, import the Five component in App.js and render your project. You should see that state value rendered on the screen.
 
-Looking again at Five.jsx, focus on *line 6*. Uncomment this line, and look again where your project is rendered in the browser. That h1 text should now read 'newStateValue'.
+Looking again at Five.jsx, focus on *line 7*. Uncomment the setTimeout function, and look again where your project is rendered in the browser. That h1 text should now read 'newStateValue'.
 
 Before moving on to the next lesson, experiment with that setState function on *line 6*. Try setting different types of data in the parenthesis, and see how they render on the screen. If nothing shows up, make sure you open your console to see if you have any errors.
+
+**Side Note:** The need for the setTimeout function was discovered by my intrepid beta testers. If you want to see why this is needed, feel free to comment out lines 6 and 8.

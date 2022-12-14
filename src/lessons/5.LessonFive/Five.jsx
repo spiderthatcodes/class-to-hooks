@@ -3,7 +3,9 @@ import { useState } from 'react';
 const Five = () => {
     const [state, setState] = useState('initialState')
 
-    // setState('newStateValue')
+    // setTimeout(() => {
+    //     setState('newStateValue')
+    // }, 2000)
 
     return (
         <>

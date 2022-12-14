@@ -1,7 +1,4 @@
 # Lesson 7
-
-In the previous lesson, we put the function to change the state value directly on the button. While that is useful and efficient for simple logic, it can be limiting when you have to complete more complex tasks.
-
 In the component Seven, you can see the function 'exampleFunction' being called on the onClick. Add logic to that function to increase the count by 1, then console.log count.
 
 Import the Seven component into App.js and run your code. Open the console and check to make sure your code is working. Pay close attention to those values in your console! If you did this lesson correctly, the number you see in your console should be one less than the number rendered below the button in your browser.

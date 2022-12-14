@@ -3,11 +3,15 @@ import { useState } from 'react';
 const Six = () => {
     const [visibility, setVisibility] = useState(false);
 
-    // console.log(visibility)
-    
+    const handleClick = () => {
+        
+    }
+
+    console.log(visibility)
+
     return (
         <div>
-            <button>Click Me</button>
+            <button onClick={handleClick}>Click Me</button>
             <h1>Now you see me!</h1>
         </div>
     );

@@ -6,6 +6,6 @@ The objective for this lesson is to write your own component from scratch. Eithe
 
 - Notice that the component name should be capitalized.
 
-- You might notice that One.jsx and App.js both have a blank line at the end of the file. This is a Github requirement. Although it will not break your code, it is a good idea to get in the habit of adding that line to the end of every file.
+- You might notice that One.jsx and App.js both have a blank line at the end of the file. This is strongly encouraged by Github. Although it will not break your code, it is a good idea to get in the habit of adding that line to the end of every file.
 
 - Make sure to import your code into App.js and render it to your screen
